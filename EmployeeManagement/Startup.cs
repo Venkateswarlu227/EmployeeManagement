@@ -46,9 +46,6 @@ namespace EmployeeManagement
                 });
 
             });
-
-
-
             app.Use(async (context, next) =>
             {
                 logger.LogInformation("wm2: incoming Requst");
